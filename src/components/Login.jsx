@@ -20,7 +20,7 @@ const Index = () => {
           </Text>
         
 
-        <Text style={tw`text-center `}>
+        <Text style={tw`text-center`}>
           This is the car pack tracking System where the Driver packes easly and
           know where there is good space for packig
         </Text>

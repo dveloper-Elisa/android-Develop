@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/components/home';
 import BootomNavigation from "./src/components/navigation"
-import Index from './src/components';
+import Index from './src/components/Login.jsx';
 const Stack = createNativeStackNavigator()
 
 

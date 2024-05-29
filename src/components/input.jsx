@@ -5,13 +5,15 @@ import tw from "twrnc"
 
 const InputFunction = ()=>{
 
-    const navigate = useNavigation()
+    const navigated = useNavigation()
+
     const navigation = ()=>{
-        return  navigate.navigate("BootomNavigation")
+        return  navigated.navigate("BootomNavigation")
     }
 
     const SignUpFunction = () => {
-        return navigate.navigate("Home")
+        return navigated.navigate("Home")
+        
     }
 
     return <View style={tw`flex-1 justify-center gap-10 items-center`}>
